@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>REGISTRATION</h1>
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="Name" size="30" required></td>
+        </tr>
+        <tr>
+            <td>Phone number:</td>
+            <td><input type="number" name="phnumber" size="10" required></td>
+        </tr>
+        <tr>
+            <td>Birthday:</td>
+            <td>
+                <input type="date" name="date" size="2" maxlength="2">
+            </td>
+        </tr>
+        <tr>
+            <td>E-mail:</td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td><textarea name="address" rows="2" cols="10"></textarea></td>
+        </tr>
+        <tr>
+            <td>Pincode:</td>
+            <td><input type="text" size="6" maxlength="6"></td>
+        </tr>
+        <tr>
+            <td>Shipping Address:</td>
+            <td><textarea name="saddress" rows="2" cols="10"></textarea></td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td><input type="checkbox" id="nt"></td>
+            <td><label for="nt">Would you like to send notifications to E-mail</label></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" id="tc"></td>
+            <td><label for="tc">Accepting terms and conditions</label></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="submit"></td>
+        </tr>
+    </table>
+</body>
+</html>
